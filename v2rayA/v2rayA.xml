@@ -11,7 +11,7 @@
   <Project/>
   <Overview>v2rayA &#x662F;&#x4E00;&#x4E2A;&#x6613;&#x7528;&#x800C;&#x5F3A;&#x5927;&#x7684;&#xFF0C;&#x4E13;&#x6CE8;&#x4E8E; Linux &#x7684; V2Ray &#x5BA2;&#x6237;&#x7AEF;</Overview>
   <Category/>
-  <WebUI>http://[IP]:2017</WebUI>
+  <WebUI>http://[IP]:[PORT:2017]</WebUI>
   <TemplateURL/>
   <Icon>https://s1.ax1x.com/2022/05/16/ORTvBq.png</Icon>
   <ExtraParams/>
