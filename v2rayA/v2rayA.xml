@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>v2rayA</Name>
+  <Repository>mzz2017/v2raya</Repository>
+  <Registry>https://registry.hub.docker.com/r/mzz2017/v2raya</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>v2rayA &#x662F;&#x4E00;&#x4E2A;&#x6613;&#x7528;&#x800C;&#x5F3A;&#x5927;&#x7684;&#xFF0C;&#x4E13;&#x6CE8;&#x4E8E; Linux &#x7684; V2Ray &#x5BA2;&#x6237;&#x7AEF;</Overview>
+  <Category/>
+  <WebUI>http://[IP]:2017</WebUI>
+  <TemplateURL/>
+  <Icon>https://s1.ax1x.com/2022/05/16/ORTvBq.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1652634976</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>v2rayA &#x662F;&#x4E00;&#x4E2A;&#x6613;&#x7528;&#x800C;&#x5F3A;&#x5927;&#x7684;&#xFF0C;&#x4E13;&#x6CE8;&#x4E8E; Linux &#x7684; V2Ray &#x5BA2;&#x6237;&#x7AEF;</Description>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/v2rayA/modules</HostDir>
+      <ContainerDir>/lib/modules</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/etc/resolv.conf</HostDir>
+      <ContainerDir>/etc/resolv.conf</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/v2rayA/v2raya</HostDir>
+      <ContainerDir>/etc/v2raya</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>0.0.0.0:2017</Value>
+      <Name>V2RAYA_ADDRESS</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="&#x73AF;&#x5883;&#x53D8;&#x91CF;" Target="V2RAYA_ADDRESS" Default="" Mode="" Description="&#x5BB9;&#x5668; Variable: V2RAYA_ADDRESS" Type="Variable" Display="always" Required="false" Mask="false">0.0.0.0:2017</Config>
+  <Config Name="Host Path 1" Target="/lib/modules" Default="" Mode="ro" Description="&#x5BB9;&#x5668; Path: /lib/modules:ro" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/v2rayA/modules</Config>
+  <Config Name="Host Path 2" Target="/etc/resolv.conf" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /etc/resolv.conf" Type="Path" Display="always" Required="false" Mask="false">/etc/resolv.conf</Config>
+  <Config Name="Host Path 3" Target="/etc/v2raya" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /etc/v2raya" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/v2rayA/v2raya</Config>
+</Container>
