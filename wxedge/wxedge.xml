@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>wxedge</Name>
   <Repository>onething1/wxedge</Repository>
-  <Registry>https://registry.hub.docker.com</Registry>
+  <Registry>https://registry.hub.docker.com/r/onething1/wxedge</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
